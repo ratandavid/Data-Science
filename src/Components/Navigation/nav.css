@@ -142,7 +142,7 @@
 
 @media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
   .desktopmenu {
-    display: none;
+    display: none !important;
   }
 
   .mobilemenu {
@@ -193,7 +193,7 @@
     justify-content: space-between !important;
   }
   .desktopmenu {
-    display: none;
+    display: none !important;
   }
 
   .mobilemenu {
