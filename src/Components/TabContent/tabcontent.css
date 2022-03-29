@@ -54,14 +54,20 @@
     margin: auto;
     margin-top: 10px;
   }
+  .myTabs ul li {
+    padding: 1rem 1rem;
+    color: #000;
+    font-weight: 200;
+    /* font-size: 11px; */
+  }
 }
 
 @media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
   .myTabs ul li {
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 0.2rem;
     color: #000;
     font-weight: 200;
-    font-size: 11px;
+    font-size: 12px;
   }
   .tabcontent h4 {
     text-align: left;
