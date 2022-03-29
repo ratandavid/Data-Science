@@ -1,0 +1,18 @@
+.Counterrow {
+  margin-top: 30px;
+}
+.Counterrow .CounterContent {
+  text-align: center;
+}
+
+.Counterrow .CounterContent .counter {
+  font-size: 50px;
+  font-weight: 700;
+  color: #437eeb;
+}
+
+.Counterrow .CounterContent h4 {
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+}

@@ -1,0 +1,88 @@
+.processFluid {
+  padding: 120px 0;
+  background: #eee;
+  transition: 0.8s all;
+}
+.processCard {
+  padding: 20px;
+}
+.processCard .cardImage {
+  display: flex;
+  justify-content: center;
+}
+.processCard .cardImage img {
+  background: #437eeb;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 1px 2px 18px #437eeb;
+  transition: 0.8s all;
+  transition-delay: 0.2s;
+}
+.processCard .cardImage img:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+.processCard .cardcontent h4 {
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: center;
+}
+.processCard .cardcontent p {
+  text-align: center;
+}
+.weprocess {
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #437eeb;
+  text-transform: uppercase;
+  text-align: center;
+}
+.discriptionprocess {
+  font-weight: 700;
+  /* position: relative; */
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 36px;
+}
+@media only screen and (min-device-width: 280px) and (max-device-width: 575px) {
+  .processFluid {
+    padding: 60px 0;
+    background: #eee;
+    transition: 0.8s all;
+  }
+  .discriptionprocess {
+    font-weight: 700;
+    /* position: relative; */
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 30px;
+  }
+}
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
+  .processCard .cardcontent h4 {
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: center;
+  }
+  .processFluid {
+    padding: 60px 0;
+    background: #eee;
+    transition: 0.8s all;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 991px) {
+  .processCard .cardcontent h4 {
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: center;
+  }
+  .processFluid {
+    padding: 60px 0;
+    background: #eee;
+    transition: 0.8s all;
+  }
+}

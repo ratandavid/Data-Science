@@ -1,0 +1,27 @@
+.Footerfluid {
+  padding: 120px 0;
+  background: #111d30;
+  color: #fff;
+}
+.footlogo {
+  margin-bottom: 20px;
+}
+
+.Footerfluid ul {
+  padding: 0;
+  /* cursor: pointer; */
+  padding: 10px 0;
+  list-style-type: none;
+}
+.Footerfluid ul li a {
+  cursor: pointer;
+}
+.Footerfluid ul li {
+  padding: 15px 0;
+  color: #fff;
+}
+
+.Footerfluid ul li :hover {
+  transition: 0.8s all;
+  color: #437eeb !important;
+}

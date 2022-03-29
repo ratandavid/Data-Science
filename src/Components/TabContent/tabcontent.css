@@ -1,0 +1,100 @@
+.tabcontent {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.tabcontent h4 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 26px;
+}
+.tabcontent p {
+  text-align: left;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.myTabs ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  justify-content: center;
+}
+.myTabs ul li {
+  padding: 1rem 2rem;
+  color: #000;
+  font-weight: 500;
+}
+.myTabs ul li a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.myTabs ul li .active {
+  background: #437eeb;
+  color: #fff !important;
+  border-radius: 5px;
+}
+@media only screen and (min-device-width: 280px) and (max-device-width: 575px) {
+  .tabcontent {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
+  .myTabs ul li {
+    padding: 1rem 1rem;
+    color: #000;
+    font-weight: 500;
+  }
+  .tabcontent h4 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .tabcontent p {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    /* margin-right: 0; */
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 991px) {
+  .myTabs ul li {
+    padding: 1rem 1rem;
+    color: #000;
+    font-weight: 500;
+  }
+  .tabcontent h4 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .tabcontent p {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    /* margin-right: 0; */
+    max-width: 100%;
+    font-size: 14px;
+  }
+}

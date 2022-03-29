@@ -1,0 +1,237 @@
+/* .my-nav {
+  background: #fff !important;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.my-nav .collapse {
+  justify-content: center;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #437eeb;
+}
+.navbar-dark .navbar-brand {
+  color: #437eeb;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #437eeb;
+} */
+.nav {
+  box-shadow: 0px 1px 18px #888888;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 100;
+}
+.navlogo {
+  /* justify-content: center; */
+  align-items: center;
+  display: flex;
+}
+.desktopmenu ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.desktopmenu ul li a {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.5s all;
+}
+
+.desktopmenu ul li a:hover {
+  color: #437eeb;
+}
+
+.nav-link {
+  display: block;
+  padding: 2rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+.mobilemenu {
+  display: none;
+  cursor: pointer;
+}
+.mobilemenu .Button {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+.mobilemenucontent {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  transition: 1s all;
+  background: #fff;
+  width: 100%;
+  max-width: 20%;
+  height: 100vh;
+}
+
+.mobilemenucontent ul li a {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.5s all;
+}
+@media only screen and (min-device-width: 280px) and (max-device-width: 575px) {
+  .desktopmenu {
+    display: none;
+  }
+
+  .mobilemenu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .mobilemenu .Button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: end;
+    font-size: large;
+  }
+  .mobilemenucontent {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: 1s all;
+    background: #fff;
+    width: 100%;
+    max-width: 50%;
+    height: 100vh;
+    box-shadow: -12px 1px 58px #eee;
+    z-index: 121;
+  }
+  .closenav {
+    border: none;
+    background: #fff;
+    float: right;
+    padding: 20px;
+    font-weight: 500;
+  }
+  .mobilemenucontent ul {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    padding: 50px 0;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
+  .desktopmenu {
+    display: none;
+  }
+
+  .mobilemenu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .mobilemenu .Button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: end;
+    font-size: large;
+  }
+  .mobilemenucontent {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: 1s all;
+    background: #fff;
+    width: 100%;
+    max-width: 50%;
+    height: 100vh;
+    box-shadow: -12px 1px 58px #eee;
+    z-index: 121;
+  }
+  .closenav {
+    border: none;
+    background: #fff;
+    float: right;
+    padding: 20px;
+    font-weight: 500;
+  }
+  .mobilemenucontent ul {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    padding: 50px 0;
+    margin: 0;
+  }
+  .navbarcontainer .mynav {
+    justify-content: space-between !important;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 991px) {
+  .navbarcontainer .mynav {
+    justify-content: space-between !important;
+  }
+  .desktopmenu {
+    display: none;
+  }
+
+  .mobilemenu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .mobilemenu .Button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: end;
+    font-size: large;
+  }
+  .mobilemenucontent {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: 1s all;
+    background: #fff;
+    width: 100%;
+    max-width: 50%;
+    height: 100vh;
+    box-shadow: -12px 1px 58px #eee;
+    z-index: 121;
+  }
+  .closenav {
+    border: none;
+    background: #fff;
+    float: right;
+    padding: 20px;
+    font-weight: 500;
+  }
+  .mobilemenucontent ul {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    padding: 50px 0;
+    margin: 0;
+  }
+}

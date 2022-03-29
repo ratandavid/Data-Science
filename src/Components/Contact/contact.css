@@ -1,0 +1,145 @@
+.Contactfluid {
+  padding: 120px 0;
+  transition: 0.8s all;
+}
+
+.contactcontent {
+  padding: 30px 0;
+  align-items: flex-end;
+}
+.contactcontent p {
+  width: 80%;
+}
+.contactleftside {
+  box-shadow: 1px 1px 18px #eee;
+  border-radius: 5px;
+  position: relative;
+  background: #fff;
+}
+.contactleftside:before {
+  position: absolute;
+  right: -15px;
+  top: 15px;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #ffffff;
+  opacity: 0.4;
+  border-radius: 5px;
+  z-index: -1;
+  box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);
+}
+
+.Contact-formheading h4 {
+  font-size: 36px;
+}
+
+.contactrightside input {
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  outline: 0;
+  background: #fff;
+  border-radius: 6px;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #eee;
+  outline: 0;
+  transition: 0.8s all;
+  box-shadow: 1px 1px 18px #eee;
+}
+.contactrightside textarea {
+  border: none;
+  border-radius: 6px;
+  border-bottom: 1px solid #eee !important;
+}
+@media only screen and (min-device-width: 280px) and (max-device-width: 575px) {
+  .Contactfluid {
+    padding: 60px 0;
+    transition: 0.8s all;
+  }
+  .contactleftside:before {
+    position: absolute;
+    right: -15px;
+    top: 15px;
+    height: 100%;
+    width: 0%;
+    content: "";
+    background: #ffffff;
+    opacity: 0.4;
+    border-radius: 5px;
+    z-index: -1;
+    box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);
+  }
+  .contactcontent {
+    width: 100%;
+    text-align: center;
+  }
+  .contactcontent p {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
+  .Contactfluid {
+    padding: 60px 0;
+    transition: 0.8s all;
+  }
+  .contactleftside:before {
+    position: absolute;
+    right: -15px;
+    top: 15px;
+    height: 100%;
+    width: 0%;
+    content: "";
+    background: #ffffff;
+    opacity: 0.4;
+    border-radius: 5px;
+    z-index: -1;
+    box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);
+  }
+  .contactcontent {
+    width: 100%;
+    text-align: center;
+  }
+  .contactcontent p {
+    width: 100%;
+  }
+  .contactcontent {
+    padding: 00;
+    align-items: flex-end;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 991px) {
+  .Contactfluid {
+    padding: 60px 0;
+    transition: 0.8s all;
+  }
+  .contactleftside:before {
+    position: absolute;
+    right: -15px;
+    top: 15px;
+    height: 100%;
+    width: 0%;
+    content: "";
+    background: #ffffff;
+    opacity: 0.4;
+    border-radius: 5px;
+    z-index: -1;
+    box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);
+  }
+  .contactcontent {
+    width: 100%;
+    text-align: center;
+  }
+  .contactcontent p {
+    width: 100%;
+  }
+  .contactcontent {
+    padding: 00;
+    align-items: flex-end;
+  }
+}

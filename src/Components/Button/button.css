@@ -1,0 +1,14 @@
+.button {
+  padding: 1rem 0;
+}
+.button .getStarted {
+  border: none;
+  background-image: linear-gradient(to right, #0059ff, #437eeb);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+}
+
+.button .getStarted:hover {
+  background-image: linear-gradient(to right, #437eeb, #0059ff);
+}

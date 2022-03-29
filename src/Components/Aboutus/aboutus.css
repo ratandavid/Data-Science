@@ -1,0 +1,92 @@
+.AboutusFluid {
+  padding: 120px 0;
+  background-color: #d2d2d224;
+  transition: 0.8s all;
+}
+.AboutusFluid h4 {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #437eeb;
+  font-size: 20px;
+  text-align: center;
+}
+.AboutusFluid h2 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+  max-width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.AboutusFluid p {
+  text-align: center;
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+@media only screen and (min-device-width: 280px) and (max-device-width: 575px) {
+  .AboutusFluid {
+    padding: 60px 0;
+    background-color: #d2d2d224;
+  }
+  .AboutusFluid h2 {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    /* margin: auto; */
+    margin-bottom: 30px;
+  }
+  .AboutusFluid p {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    /* margin: auto; */
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .myTabs ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
+  .AboutusFluid {
+    padding: 60px 0;
+    background-color: #d2d2d224;
+  }
+  .AboutusFluid h2 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    /* margin: auto; */
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 991px) {
+  .AboutusFluid {
+    padding: 60px 0;
+    background-color: #d2d2d224;
+  }
+  .AboutusFluid h2 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    /* margin: auto; */
+    margin-bottom: 30px;
+  }
+}

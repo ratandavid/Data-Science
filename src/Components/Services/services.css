@@ -1,0 +1,44 @@
+.Servicesfluid {
+  padding: 120px 0;
+  transition: 0.8s all;
+}
+.Servicesfluid h2 {
+  font-weight: 700;
+  margin-top: -8px;
+  font-size: 40px;
+  width: 80%;
+}
+@media only screen and (min-device-width: 280px) and (max-device-width: 575px) {
+  .Servicesfluid {
+    padding: 60px 0;
+  }
+  .Servicesfluid h2 {
+    font-weight: 700;
+    margin-top: -8px;
+    font-size: 30px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
+  .Servicesfluid h2 {
+    font-weight: 700;
+    margin-top: -8px;
+    font-size: 30px;
+    width: 100%;
+  }
+  .Servicesfluid {
+    padding: 60px 0;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 991px) {
+  .Servicesfluid {
+    padding: 60px 0;
+  }
+  .Servicesfluid h2 {
+    font-weight: 700;
+    margin-top: -8px;
+    font-size: 30px;
+    width: 100%;
+  }
+}

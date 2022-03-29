@@ -1,0 +1,70 @@
+.BlogFluid {
+  padding: 120px 0;
+  position: relative;
+  background: #ffff;
+  transition: 0.8s all;
+}
+.BlogFluid::before {
+  position: absolute;
+  left: -30px;
+  top: -1%;
+  content: "";
+  height: 100%;
+  width: 100px;
+  background: #eeee;
+  border-radius: 50px;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 575px) {
+  .BlogFluid {
+    padding: 60px 0;
+    position: relative;
+    background: #ffff;
+  }
+  .BlogFluid::before {
+    position: absolute;
+    left: -30px;
+    top: -1%;
+    content: "";
+    height: 100%;
+    width: 0px;
+    background: #eeee;
+    border-radius: 50px;
+  }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
+  .BlogFluid {
+    padding: 60px 0;
+    position: relative;
+    background: #ffff;
+  }
+  .BlogFluid::before {
+    position: absolute;
+    left: -30px;
+    top: -1%;
+    content: "";
+    height: 100%;
+    width: 0px;
+    background: #eeee;
+    border-radius: 50px;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 991px) {
+  .BlogFluid::before {
+    position: absolute;
+    left: -30px;
+    top: -1%;
+    content: "";
+    height: 100%;
+    width: 0px;
+    background: #eeee;
+    border-radius: 50px;
+  }
+  .BlogFluid {
+    padding: 60px 0;
+    position: relative;
+    background: #ffff;
+    transition: 0.8s all;
+  }
+}

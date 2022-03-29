@@ -1,0 +1,85 @@
+.bannerfluid {
+  padding: 120px 0;
+  transition: 1s all;
+  background-color: #d2d2d224;
+}
+.banner_right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner_right-side p {
+  font-size: 36px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.banner_right-side h2 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 90%;
+  text-transform: uppercase;
+}
+.banner_right-side span {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 575px) {
+  .bannerfluid {
+    padding: 60px 0;
+    background-color: #d2d2d224;
+  }
+  .banner_right-side h2 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 100%;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
+  .banner_right-side p {
+    font-size: 26px;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+  .bannerfluid {
+    padding: 60px 0;
+    background-color: #d2d2d224;
+  }
+  .banner_right-side h2 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 90%;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 991px) {
+  .banner_right-side p {
+    font-size: 26px;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+  .bannerfluid {
+    padding: 60px 0;
+    background-color: #d2d2d224;
+  }
+  .banner_right-side h2 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 90%;
+    text-transform: uppercase;
+  }
+}
