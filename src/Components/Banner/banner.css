@@ -32,13 +32,18 @@
     background-color: #d2d2d224;
   }
   .banner_right-side h2 {
-    font-size: 50px;
+    font-size: 36px;
     font-weight: 800;
     line-height: 1;
     margin-bottom: 30px;
     width: 100%;
     max-width: 100%;
     text-transform: uppercase;
+  }
+  .banner_right-side p {
+    font-size: 26px;
+    font-weight: 200;
+    margin-bottom: 20px;
   }
 }
 
