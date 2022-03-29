@@ -39,16 +39,16 @@ function Contact() {
                         <h4>We’d love to hear from you anytime</h4>
                     </div>
                     <div className='contactrightside'>
-                    <div class="row">
-                        <div class="col-xl-12  pb-5">
-                        <input type="text" class="form-control" placeholder="First name" aria-label="First name"/>
+                    <div className="row">
+                        <div className="col-xl-12  pb-5">
+                        <input type="text" className="form-control" placeholder="First name" aria-label="First name"/>
                         </div>
-                        <div class="col-xl-12 pb-5">
-                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"/>
+                        <div className="col-xl-12 pb-5">
+                        <input type="text" className="form-control" placeholder="Last name" aria-label="Last name"/>
                         </div>
-                        <div class="col-xl-12">
-                        <label for="exampleFormControlTextarea1" class="form-label">Tell us about your project</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div className="col-xl-12">
+                        <label htmlFor="exampleFormControlTextarea1" className="form-label">Tell us about your project</label>
+                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <Button name='Send Message'></Button>
                     </div>
