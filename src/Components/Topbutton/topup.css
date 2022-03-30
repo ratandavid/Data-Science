@@ -1,0 +1,15 @@
+.topup {
+  position: fixed;
+  bottom: 2%;
+  z-index: 101;
+  background: #eee;
+  box-shadow: 1px 1px 25px #777;
+  border-radius: 100px;
+  right: 1%;
+  padding: 20px;
+}
+.topup img {
+  width: 30px;
+  /* padding: 20px; */
+  height: 30px;
+}

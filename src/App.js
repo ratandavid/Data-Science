@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Topup from './Components/Topbutton/Topup';
 import Nav from './Components/Navigation/Nav';
 import Banner from './Components/Banner/Banner';
 import Sliderbanner from './Components/SliderBanner/Sliderbanner';
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <>
+      <Topup></Topup>
       <Nav></Nav>
       <Banner></Banner>
       <Sliderbanner></Sliderbanner>

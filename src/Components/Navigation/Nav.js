@@ -14,7 +14,7 @@ function Nav() {
     
 
 <>
-<div className='nav containerfluid'>
+<div className='nav containerfluid' id='navi'>
   <div className="navbarcontainer container">
       <div className='row mynav'>
           <div className="col-xl-2 col-md-2 col-6 navlogo">
@@ -23,7 +23,7 @@ function Nav() {
           <div className="col-xl-8 col-md-8 desktopmenu">
               <ul>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Home</a>
+                  <a className="nav-link" href="#Banner">Home</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#features">Features</a>

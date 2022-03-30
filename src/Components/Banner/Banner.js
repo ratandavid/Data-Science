@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 import Images from'../../Images/1.png';
 function Banner() {
   return (
-    <div className='bannerfluid containerfluid'>
+    <div className='bannerfluid containerfluid' id="Banner">
         <div className='container'>
             <div className='row'>
                 <div className='col-xl-6 col-md-6 banner_right-side'>
